@@ -1,0 +1,53 @@
+.container{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.item{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.title {
+  font-size: 72px;
+  background: linear-gradient(to bottom, rgb(231, 55, 55) , rgb(4, 99, 177) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}  
+.desc {
+  font-size: 24px;
+  font-weight: 300;
+}
+.img{
+  width:fit-content;
+  height: 400px;  
+
+    object-fit: contain ;
+    animation: move 3s infinite ease alternate;
+
+}
+  @keyframes move{
+    from {
+      transform: translateY(-10px);
+
+    }
+    to {
+      transform: translateY(10px);
+    }
+  
+
+
+
+
+}
+
+.button {
+  padding: 20px;
+  cursor: pointer;
+  background-color: rgb(108, 1, 207);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+}

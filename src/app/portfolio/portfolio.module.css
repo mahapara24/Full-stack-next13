@@ -1,0 +1,48 @@
+.container {
+
+}
+.maintitle {
+    font-size: 100px;
+}
+
+.selectTitle{
+    margin: 20px 0px;
+}
+.items {
+    display: flex;
+    gap: 50px;
+}
+
+.item{
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    color: #115588;
+    background-size: cover !important;
+    object-fit: cover;
+    
+
+}
+.item:nth-child(1){
+    background: url("/public/illustration.jpg")
+}
+
+.item:nth-child(2){
+    background: url("/public/websites.jpg");
+}
+.item:nth-child(3){
+    background: url("/public/application.jpg");
+}
+
+.title {
+    position: absolute;
+    right: 10px;
+    bottom:10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.item:hover .title{
+    color: #04233b;
+}

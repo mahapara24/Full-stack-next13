@@ -1,0 +1,64 @@
+.title{
+  font-size: 60px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.container {
+    }
+  .button{
+    
+    padding: 20px;
+    cursor: pointer;
+    background-color: rgb(108, 1, 207);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+  }
+  .imgcontainer {
+    flex: 1;
+    height: 500px;
+    position: relative;
+  }
+
+  .image{
+    object-fit: contain ;
+    animation: move 3s infinite ease alternate;
+
+  }
+  @keyframes move{
+    from {
+      transform: translateY(-15px);
+
+    }
+    to {
+      transform: translateY(0px) scale(1.03);
+    }
+  }
+
+
+
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    
+  }
+  .form {
+    flex: 1;
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+  }
+
+  .input, .textArea{
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: grey;
+    border: 3px solid gray;
+    font-size: 15px;
+    font-weight: bold;
+
+  }

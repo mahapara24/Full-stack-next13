@@ -1,0 +1,30 @@
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+font-weight: bold;
+font-size: 40px;
+color: rgba(118, 37, 223, 0.951);
+padding-top: 2px;
+outline: violet;
+animation: backwards;
+
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logout {
+    padding: 5px;
+    border: none;
+    background-color:  rgba(118, 37, 223, 0.951);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+
+}

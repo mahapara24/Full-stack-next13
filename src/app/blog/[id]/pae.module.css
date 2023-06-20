@@ -1,0 +1,30 @@
+.container{
+
+}
+.top{
+    gap:10px
+    
+}
+.avatar {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.imagecontainer {
+    flex: 1;
+    height: 300px;
+    position: relative;
+
+}
+
+.image {
+    object-fit: cover;
+}
+ 
+.content {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #999;
+    text-align: justify   ;
+}
